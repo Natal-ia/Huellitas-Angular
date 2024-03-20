@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Huellitas-Angular": {
+    "huellitas-felices": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/huellitas-angular",
+            "outputPath": "dist/huellitas-felices",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Huellitas-Angular:build:production"
+              "browserTarget": "huellitas-felices:build:production"
             },
             "development": {
-              "browserTarget": "Huellitas-Angular:build:development"
+              "browserTarget": "huellitas-felices:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Huellitas-Angular:build"
+            "browserTarget": "huellitas-felices:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "50ad42e2-dfa0-423b-8e66-77d719d29d62"
+    "analytics": "48a0dd77-2e16-47ac-9877-687be1d3fe9b"
   }
 }

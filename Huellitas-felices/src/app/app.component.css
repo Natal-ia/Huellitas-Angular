@@ -1,0 +1,8 @@
+/* Elementos principales*/
+:root {
+    --color-primario: #FBECD9;
+    --color-secundario: #FFCF96;
+    --color-terciario: #FF8080;
+    --color-contraste: #fe9739;
+    --font-poppins: 'poppins', sans-serif;
+}
